@@ -1,6 +1,10 @@
 # Güvenlik Kütüphanesi (AppSec Playbook)
 
-Bu depo, teknik güvenlik analizleri, zafiyet incelemeleri, kontrol listeleri (checklists) ve güvenli kodlama rehberlerini barındıran yaşayan bir kütüphanedir.
+Bu depo, **yapay zeka desteğiyle yazılım geliştirenler** ve **yazılım güvenliğine yeni başlayanlar** için oluşturulmuş, yaşayan bir güvenlik kütüphanesidir.
+
+**Amacı:** İzlenen yayınlar, okunan makaleler ve güncel güvenlik açıklarını belirli bir şablona göre raporlayarak, teknik derinlikte boğulmadan herkesin anlayabileceği ve uygulayabileceği pratik bir rehber sunmaktır. İçerik zamanla, yeni araştırmalarla birlikte yavaş yavaş zenginleşecektir.
+
+Depo içerisinde teknik güvenlik analizleri, zafiyet incelemeleri, kontrol listeleri (checklists) ve güvenli kodlama rehberleri bulunur.
 
 ## 📂 Klasör Yapısı
 

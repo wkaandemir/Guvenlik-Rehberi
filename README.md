@@ -71,4 +71,5 @@ Her doküman ideal olarak şu bölümleri içermelidir:
 
 ### Oturum Yönetimi
 *   [Güvenlik Açığı: Oturum Çerezlerinin Otomatik Gönderilmesi ile Tetiklenen CSRF ve Oturum Kaçırma Zafiyeti](Oturum_Yonetimi/csrf_ve_oturum_kacirma.md)
+*   [Güvenlik Açığı: Node.js ve React Ekosistemi - React2Shell (CVE-2025-55182) & Next.js RCE (CVE-2025-66478)](Oturum_Yonetimi/Nextjs_React_RCE_Analizi.md)
 

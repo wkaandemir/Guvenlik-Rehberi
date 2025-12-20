@@ -215,4 +215,6 @@ def safe_search_articles(request):
 
 **Kaynak:** Bu doküman, Django ORM katmanında Q/connector kullanımından kaynaklanan CVE-2025-64459 zafiyetinin saldırgan bakış açısından yapılan analizine dayanır; örnekler ve davranış farkları video analizinden türetilmiştir.
 
+- [Django ORM Connector SQL Injection — CVE-2025-64459 - YouTube](https://www.youtube.com/watch?v=78e6n02mkYM)
+
 

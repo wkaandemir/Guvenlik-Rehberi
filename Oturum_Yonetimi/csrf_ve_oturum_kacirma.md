@@ -230,4 +230,7 @@ app.post('/account/transfer', csrfProtection, (req, res) => {
 
 ---
 
+### 9. Kaynakça
+- [Oturum Çerezlerinin Otomatik Gönderilmesi ile Tetiklenen CSRF - YouTube](https://www.youtube.com/watch?v=CKHai0OW6BY&list=PLwP4ObPL5GY940XhCtAykxLxLEOKCu0nT&index=3)
+
 

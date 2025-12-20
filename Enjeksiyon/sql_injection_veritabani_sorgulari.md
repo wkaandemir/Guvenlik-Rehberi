@@ -235,4 +235,7 @@ async function getProduct(conn, productId) {
 - **Test önerisi:** Düzeltmeler yapıldıktan sonra hem otomatik DAST hem de manuel doğrulama (ör. blind/boolean/time-based SQLi testleri) gerçekleştirilmelidir.  
 - **Eğitim:** Geliştirici ekipleri için kısa, uygulamalı secure coding oturumları (parametrizasyon, ORM güvenli kullanımı, input validation) planlayın.
 
+## Kaynakça
+- [SQL Injection ile Veritabanı Sorgularının Kontrol Edilmesi - YouTube](https://www.youtube.com/watch?v=WtHnT73NaaQ&list=PLwP4ObPL5GY940XhCtAykxLxLEOKCu0nT&index=1)
+
 

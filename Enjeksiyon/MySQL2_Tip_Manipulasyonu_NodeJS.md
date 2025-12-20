@@ -125,3 +125,6 @@ app.post('/login', async (req, res) => {
 - **Uyarı 3:** `stringifyObjects` konfigürasyon değişiklikleri deploy edildiğinde otomatik test tetikle.
 
 ---
+
+### 9. Kaynakça
+- [MySQL2 Tip Manipülasyonu ve SQL Injection - YouTube](https://youtu.be/Owz-1fRV4bo?si=A3QHCvCPJoBSFviE)

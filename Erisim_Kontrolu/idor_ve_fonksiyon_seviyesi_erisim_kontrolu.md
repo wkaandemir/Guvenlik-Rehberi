@@ -182,4 +182,6 @@ app.get('/api/addresses/:id', authenticate, requireOwnership, async (req, res) =
 
 **Kaynak:** Video eğitimindeki Web Security 101 — IDOR ve fonksiyon seviyesi erişim kontrolü anlatımı ve demo örnekleri (e‑ticaret adres yönetimi, proxy ile istek yakalama).
 
+- [Insecure Direct Object Reference (IDOR) ve Fonksiyon Seviyesi Erişim Kontrolü - YouTube](https://www.youtube.com/watch?v=TsJ2XPuGe1k&list=PLwP4ObPL5GY940XhCtAykxLxLEOKCu0nT&index=2)
+
 

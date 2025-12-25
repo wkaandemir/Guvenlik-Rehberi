@@ -215,3 +215,4 @@ app.post('/reset-password', async (req, res) => {
     *   Normal dışı konumlardan veya zamanlarda yapılan giriş denemeleri
     *   Aynı IP adresinden çok sayıda farklı kullanıcı hesabına giriş denemeleri
     *   Parola sıfırlama taleplerindeki anormal artışlar
+

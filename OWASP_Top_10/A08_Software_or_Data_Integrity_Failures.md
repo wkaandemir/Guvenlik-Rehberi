@@ -197,3 +197,4 @@ def verify_data_with_hmac(data, expected_hmac, secret_key):
     *   Veri bütünlüğü kontrol hatalarındaki artış
     *   Deserialize işlemlerindeki anormallikler
     *   CI/CD pipeline'larındaki yetkisiz değişiklikler
+

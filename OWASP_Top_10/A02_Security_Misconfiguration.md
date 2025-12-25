@@ -141,3 +141,4 @@ server {
     *   Normal dışı port erişimleri
     *   Yapılandırma dosyalarındaki yetkisiz değişiklikler
     *   SSL/TLS sertifikalarındaki anormallikler
+

@@ -131,3 +131,4 @@ if (preg_match('/^[a-zA-Z0-9._-]+$/', $file)) {
     *   Başarısız SQL sorgularındaki artış
     *   Uygulama normal davranışının dışında veritabanı erişimleri
     *   Şüpheli OS komut çalıştırma denemeleri
+

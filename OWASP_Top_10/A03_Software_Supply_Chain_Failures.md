@@ -152,3 +152,4 @@ try {
     *   Bilinmeyen kaynaklardan yapılan indirmeler
     *   CI/CD pipeline'larındaki yetkisiz değişiklikler
     *   Container imajlarındaki anormallikler
+

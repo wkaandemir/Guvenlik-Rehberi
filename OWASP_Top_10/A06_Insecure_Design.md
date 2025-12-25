@@ -167,3 +167,4 @@ public class PasswordResetService {
     *   İş kurallarının aşılma denemeleri
     *   Tasarım seviyesindeki güvenlik kontrollerinin atlatılması
     *   İş mantığı zafiyetlerini istismar etme denemeleri
+

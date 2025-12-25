@@ -145,3 +145,4 @@ def verify_password(stored_password, provided_password):
     *   Kriptografik anahtarlara yetkisiz erişim denemeleri
     *   SSL/TLS handshake hataları
     *   Parola kırma saldırıları
+

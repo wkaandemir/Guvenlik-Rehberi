@@ -6,6 +6,8 @@ Bu depo, **yapay zeka desteğiyle yazılım geliştirenler** ve **yazılım güv
 
 Depo içerisinde teknik güvenlik analizleri, zafiyet incelemeleri, kontrol listeleri (checklists) ve güvenli kodlama rehberleri bulunur.
 
+> **Daha kapsamlı proje indeksi için [INDEX.md](INDEX.md) dosyasına bakın.**
+
 ## 📂 Klasör Yapısı
 
 Depo, içeriklerin kolay erişilebilir olması için teknoloji ve alana göre kategorize edilmiştir:

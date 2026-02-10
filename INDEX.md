@@ -108,7 +108,7 @@ Oturum yonetimi zafiyetleri, kullanici oturumlarinin guvensiz olmasi veya manipu
 
 **Iliskili Kategoriler:**
 - OWASP A07: Authentication Failures
-- Arastirmalar: [Node.js Guvenlik Acik Arastirmasi](Arastirmalar/Node.js Guvenlik Acik Arastirmasi.md)
+- Arastirmalar: [Node.js Güvenlik Açığı Araştırması](Arastirmalar/Node.js Güvenlik Açığı Araştırması.md)
 
 ---
 
@@ -135,8 +135,9 @@ Derinlemesine guvenlik arastirmalari ve kapsamli tehdit analizleri icerir.
 
 | Dokuman | Konu | Aciklama |
 |---------|------|----------|
-| [Node.js Guvenlik Acik Arastirmasi.md](Arastirmalar/Node.js Guvenlik Acik Arastirmasi.md) | React2Shell | CVE-2025-55182 ve CVE-2025-66478 kapsamli tehdit analizi |
-| [Ocak 2026 Guvenlik Aciklar Arastirmasi.md](Arastirmalar/Ocak 2026 Guvenlik Aciklar Arastirmasi.md) | Aylik Ozet | Ocak 2026 guvenlik aciklari ozet raporu |
+| [Node.js Güvenlik Açığı Araştırması.md](Arastirmalar/Node.js Güvenlik Açığı Araştırması.md) | React2Shell | CVE-2025-55182 ve CVE-2025-66478 kapsamli tehdit analizi |
+| [Ocak 2026 Güvenlik Açıkları Araştırması.md](Arastirmalar/Ocak 2026 Güvenlik Açıkları Araştırması.md) | Aylik Ozet | Ocak 2026 guvenlik aciklari ozet raporu |
+| [Keycloak Zafiyet Araştırması ve Analizi.md](Arastirmalar/Keycloak Zafiyet Araştırması ve Analizi.md) | Keycloak | CVE-2026-1529 organizasyon davet/katilim akisi zafiyet analizi |
 
 **Iliskili Dokumanlar:**
 - [Nextjs_React_RCE_Analizi.md](Oturum_Yonetimi/Nextjs_React_RCE_Analizi.md) - Daha teknik detayli analiz

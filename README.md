@@ -80,6 +80,7 @@ Her doküman ideal olarak şu bölümleri içermelidir:
 
 ### Araştırmalar
 *   [2025 Sonu Node.js ve React Ekosistemi Güvenlik Krizi: React2Shell (CVE-2025-55182) Kapsamlı Tehdit Analizi ve Savunma Mimarisi](Arastirmalar/Node.js Güvenlik Açığı Araştırması.md)
+*   [CVE-2026-1529: Keycloak Organizations Davet Jetonları Zafiyet Analizi](Arastirmalar/Keycloak Zafiyet Araştırması ve Analizi.md)
 
 ### İşletim Sistemi
 *   [Güvenlik Açığı: Windows DWM Bilgi İfşası — CVE-2026-20805](Isletim_Sistemi/windows_dwm_info_disclosure_cve_2026_20805.md)

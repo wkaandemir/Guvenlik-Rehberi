@@ -7,7 +7,7 @@
 | **Tanimlayici** | CVE-2025-8110 |
 | **Kritiklik** | Kritik |
 | **Kategori Klasoru** | Erisim_Kontrolu/ |
-| **Kaynak Arastirma** | [Arastirmalar/Ocak 2026 Güvenlik Açıkları Araştırması.md](../Arastirmalar/Ocak%202026%20G%C3%BCvenlik%20A%C3%A7%C4%B1klar%C4%B1%20Ara%C5%9Ft%C4%B1rmas%C4%B1.md) |
+| **Kaynak Arastirma** | [Ocak_2026_Guvenlik_Aciklari_Arastirmasi.md](../Arastirmalar/Ocak_2026_Guvenlik_Aciklari_Arastirmasi.md) |
 | **Tarih** | 2026-02-02 |
 | **Mevcut Dokuman** | Silindi — icerik bu TODO dosyasinda | |
 

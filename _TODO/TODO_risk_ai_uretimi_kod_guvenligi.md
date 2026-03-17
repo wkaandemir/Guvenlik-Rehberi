@@ -7,7 +7,7 @@
 | **Tanimlayici** | AI-Uretimi Kod Guvenlik Riski (SusVibes) |
 | **Kritiklik** | Yuksek |
 | **Kategori Klasoru** | YENI: AI_IDE_Guvenligi/ |
-| **Kaynak Arastirma** | [Vibecoding_Guvenlik_Aciklari_Subat_2026.md](../Arastirmalar/Vibecoding_Guvenlik_Aciklari_Subat_2026.md) |
+| **Kaynak Arastirma** | [Vibecoding_Guvenlik_Aciklari_Arastirmasi.md](../Arastirmalar/Vibecoding_Guvenlik_Aciklari_Arastirmasi.md) |
 | **Tarih** | 2026-03-10 |
 | **Mevcut Dokuman** | Henuz yok |
 

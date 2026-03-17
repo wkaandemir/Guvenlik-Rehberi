@@ -1,4 +1,35 @@
-# Claude Code Talimatlar
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Proje Hakkinda
+
+Turkce guvenlik rehberi ve zafiyet izleme deposu. Kod icermez — tamami Markdown dokumanlardan olusur. Build, lint veya test komutu yoktur.
+
+## Repo Mimarisi (Iki Katmanli Model)
+
+**Katman 1 — Genel rehber dokumanlar** (fiziksel klasorler):
+
+| Klasor | Icerik |
+|--------|--------|
+| `OWASP_Top_10/` | A01–A10 genel guvenlik acigi rehberleri |
+| `Enjeksiyon/` | SQL Injection, Command Injection vb. rehberler |
+| `Erisim_Kontrolu/` | Broken Access Control, IDOR vb. rehberler |
+| `Oturum_Yonetimi/` | CSRF, Session Management vb. rehberler |
+| `Arastirmalar/` | Derinlemesine arastirma raporlari (islenmemis veya islenmis) |
+
+**Katman 2 — CVE/zafiyet izleme** (tek klasor, metadata ile kategorize):
+
+| Klasor | Icerik |
+|--------|--------|
+| `_TODO/` | Her zafiyet icin bir `TODO_*.md` dosyasi + `OZET.md` panosu |
+| `_Sablonlar/` | `todo_sablonu.md` — TODO dosyalari icin zorunlu 8-bolum sablonu |
+
+Kategori bilgisi TODO dosyalarinin meta tablosundaki **Kategori Klasoru** alaninda tutulur, ayri fiziksel klasor olusturulmaz.
+
+## Slash Komutlari
+
+- `/arastirma-isle <dosya_yolu>` — Bir arastirma dokumanini isleyerek icindeki her zafiyet icin TODO dosyasi olusturur
 
 ## Arastirma Isleme Is Akisi
 
@@ -54,11 +85,6 @@ Kurallar:
 - Sadece kucuk harf, tire yerine alt cizgi
 - Turkce karakter kullanilmaz (ascii only)
 
-Ornekler:
-- `TODO_cve_2026_22708_cursor_shell_bypass.md`
-- `TODO_roguepilot_copilot_token_theft.md`
-- `TODO_risk_ai_uretimi_kod_guvenligi.md`
-
 ### Durum Yonetimi
 
 - **ACIK**: Henuz islem yapilmamis veya devam ediyor
@@ -66,37 +92,13 @@ Ornekler:
 
 Durum degistirme: TODO dosyasindaki `| **Durum** | ACIK |` satirini `KAPANDI` olarak guncelle.
 
-### Kategori Yapisi
+### Kategori Etiketleri (metadata icin)
 
-CVE analizleri `_TODO/` klasorunde tutulur. Kategori etiketi TODO dosyasinin meta bilgilerinde belirtilir, fiziksel bir klasore karsilik gelmek zorunda degildir.
-
-**Fiziksel kategori klasorleri** (genel rehber dokumanlar icin):
-
-| Klasor | Aciklama |
-|--------|----------|
-| `Enjeksiyon/` | SQL Injection, Command Injection vb. |
-| `Erisim_Kontrolu/` | Broken Access Control, IDOR vb. |
-| `Oturum_Yonetimi/` | CSRF, Session Management vb. |
-| `OWASP_Top_10/` | OWASP Top 10 2025 guvenlik aciklari |
-| `Arastirmalar/` | Derinlemesine arastirma ve raporlar |
-
-**Metadata kategori etiketleri** (TODO dosyalarinda kullanilir):
-
-| Etiket | Aciklama |
-|--------|----------|
-| `Isletim_Sistemi/` | Windows, Linux, kernel ve surucu zafiyetleri |
-| `Donanim/` | CPU/GPU ve donanim seviyesinde zafiyetler |
-| `Mobil/` | Android/iOS ve mobil platform zafiyetleri |
-| `Guvenlik_Yapilandirmasi/` | Security Misconfiguration vb. |
-| `AI_IDE_Guvenligi/` | Vibecoding/AI arac zafiyetleri |
-| `Kimlik_Dogrulama/` | Authentication zafiyetleri |
-| `Veri_Ihlalleri/` | Buyuk olcekli veri sizintilari |
-| `Tedarik_Zinciri/` | Supply chain saldirilari |
+`Isletim_Sistemi/`, `Donanim/`, `Mobil/`, `Guvenlik_Yapilandirmasi/`, `AI_IDE_Guvenligi/`, `Kimlik_Dogrulama/`, `Veri_Ihlalleri/`, `Tedarik_Zinciri/`
 
 ### TODO Dokuman Formati (Zorunlu)
 
-Her TODO dosyasi `_Sablonlar/todo_sablonu.md` sablonundaki **8 bolumluk yapi**ya uygun olmalidir.
-Bu format `OWASP_Top_10/A06_Insecure_Design.md` referans dosyasiyla ayni detay seviyesindedir.
+Her TODO dosyasi `_Sablonlar/todo_sablonu.md` sablonundaki **9 bolumluk yapi**ya uygun olmalidir. Referans ornek: `OWASP_Top_10/A06_Insecure_Design.md`.
 
 **Zorunlu bolumler (sirasi degismez):**
 
@@ -114,12 +116,11 @@ Bu format `OWASP_Top_10/A06_Insecure_Design.md` referans dosyasiyla ayni detay s
 - Hicbir bolum atlanamaz, icerik zafiyete ozgu doldurulur
 - Kod ornekleri ilgili dilde (Java, Python, PowerShell, bash vb.) ve dil etiketi ile yazilir
 - PoC bolumu yalnizca egitim ve savunma amaclidir, uyari notu zorunludur
-- Yeni TODO olusturulurken bu format kullanilir, eski TODO'lar da bu formata donusturulur
 
 ## Genel Kurallar
 
 - Turkce dokumantasyon dili kullanilir
 - CVE numaralari her zaman belirtilir
+- Dosya iceriginde Turkce karakter kullanilabilir, dosya adlarinda kullanilmaz (ascii only)
 - Mevcut dokumanlara link verilir
-- INDEX.md ve README.md guncellenir
-- `_Sablonlar/todo_sablonu.md` ana sablondur (8 bolumluk detayli format)
+- `_TODO/OZET.md` her TODO ekleme/silme isleminden sonra guncellenir

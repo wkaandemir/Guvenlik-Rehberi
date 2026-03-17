@@ -7,7 +7,7 @@
 | **Tanimlayici** | CVE-2026-21533 |
 | **Kritiklik** | Yuksek |
 | **Kategori Klasoru** | Isletim_Sistemi/ |
-| **Kaynak Arastirma** | [Vibecoding Guvenlik Aciklari Arastirmasi (Ham Notlar).md](../Arastirmalar/Vibecoding%20G%C3%BCvenlik%20A%C3%A7%C4%B1klar%C4%B1%20Ara%C5%9Ft%C4%B1rmas%C4%B1%20(Ham%20Notlar).md) |
+| **Kaynak Arastirma** | [Vibecoding_Guvenlik_Aciklari_Arastirmasi.md](../Arastirmalar/Vibecoding_Guvenlik_Aciklari_Arastirmasi.md) |
 | **Tarih** | 2026-03-10 |
 | **Mevcut Dokuman** | Henuz yok |
 

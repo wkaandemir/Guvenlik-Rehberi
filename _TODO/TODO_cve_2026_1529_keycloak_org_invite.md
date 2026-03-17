@@ -7,9 +7,9 @@
 | **Tanimlayici** | CVE-2026-1529 |
 | **Kritiklik** | Yuksek |
 | **Kategori Klasoru** | YENI: Kimlik_Dogrulama/ |
-| **Kaynak Arastirma** | [Keycloak Zafiyet Araştırması ve Analizi.md](../Arastirmalar/Keycloak%20Zafiyet%20Ara%C5%9Ft%C4%B1rmas%C4%B1%20ve%20Analizi.md) |
+| **Kaynak Arastirma** | [Keycloak_Zafiyet_Arastirmasi_ve_Analizi.md](../Arastirmalar/Keycloak_Zafiyet_Arastirmasi_ve_Analizi.md) |
 | **Tarih** | 2026-02-10 |
-| **Mevcut Dokuman** | [Keycloak Zafiyet Araştırması ve Analizi.md](../Arastirmalar/Keycloak%20Zafiyet%20Ara%C5%9Ft%C4%B1rmas%C4%B1%20ve%20Analizi.md) |
+| **Mevcut Dokuman** | [Keycloak_Zafiyet_Arastirmasi_ve_Analizi.md](../Arastirmalar/Keycloak_Zafiyet_Arastirmasi_ve_Analizi.md) |
 
 ---
 

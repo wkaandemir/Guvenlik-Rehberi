@@ -7,7 +7,7 @@
 | **Tanimlayici** | CVE-2025-27210 |
 | **Kritiklik** | Yuksek |
 | **Kategori Klasoru** | Erisim_Kontrolu/ |
-| **Kaynak Arastirma** | [Node.js Güvenlik Açığı Araştırması.md](../Arastirmalar/Node.js%20G%C3%BCvenlik%20A%C3%A7%C4%B1%C4%9F%C4%B1%20Ara%C5%9Ft%C4%B1rmas%C4%B1.md) |
+| **Kaynak Arastirma** | [Nodejs_Guvenlik_Acigi_Arastirmasi.md](../Arastirmalar/Nodejs_Guvenlik_Acigi_Arastirmasi.md) |
 | **Tarih** | 2025-12-20 |
 | **Mevcut Dokuman** | Henuz yok |
 

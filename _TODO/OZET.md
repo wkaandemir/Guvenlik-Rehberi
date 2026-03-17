@@ -1,18 +1,18 @@
 # TODO Ozet Panosu
 
-> Son guncelleme: 2026-03-10
+> Son guncelleme: 2026-03-17
 
 ## Genel Durum
 
 | Metrik | Sayi |
 |--------|------|
-| **Toplam TODO** | 48 |
-| **ACIK** | 48 |
+| **Toplam TODO** | 49 |
+| **ACIK** | 49 |
 | **KAPANDI** | 0 |
 
 ## Dokuman Formati
 
-Tum TODO dosyalari **8 bolumluk detayli zafiyet analiz formatinda** hazirlanmistir:
+Tum TODO dosyalari **9 bolumluk detayli zafiyet analiz formatinda** hazirlanmistir:
 
 | # | Bolum | Icerik |
 |---|-------|--------|
@@ -27,7 +27,7 @@ Tum TODO dosyalari **8 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 
 *   **Referans format:** `OWASP_Top_10/A06_Insecure_Design.md`
 *   **Sablon:** `_Sablonlar/todo_sablonu.md`
-*   **Toplam kontrol maddesi (checkbox):** 693
+*   **Toplam kontrol maddesi (checkbox):** 703
 
 ---
 
@@ -101,6 +101,12 @@ Tum TODO dosyalari **8 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 | 47 | [TODO_raph_wiggum](TODO_risk_vibecoding_gelistirici_rehaveti.md) | Raph Wiggum Dongusu | Yuksek | YENI: AI_IDE_Guvenligi/ | ACIK |
 | 48 | [TODO_mcp_sunucu](TODO_risk_mcp_sunucu_guvenligi.md) | MCP Sunucu Guvenligi | Yuksek | YENI: AI_IDE_Guvenligi/ | ACIK |
 
+### 5. Bagimsiz Rehber Kaynaklari (1 TODO)
+
+| # | TODO Dosyasi | Tanimlayici | Kritiklik | Kategori | Durum |
+|---|-------------|-------------|-----------|----------|-------|
+| 49 | [TODO_cve_2025_64459](TODO_cve_2025_64459_django_orm_sql_injection.md) | CVE-2025-64459 | Yuksek | Enjeksiyon/ | ACIK |
+
 ---
 
 ## Kritiklik Dagilimi
@@ -108,7 +114,7 @@ Tum TODO dosyalari **8 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 | Kritiklik | Sayi |
 |-----------|------|
 | Kritik | 20 |
-| Yuksek | 23 |
+| Yuksek | 24 |
 | Orta | 5 |
 | Dusuk | 0 |
 
@@ -126,7 +132,7 @@ Tum TODO dosyalari **8 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 | Veri_Ihlalleri/ | 2 | Klasor henuz olusturulmadi |
 | OWASP_Top_10/ | 1 | Mevcut (A01-A10 genel rehberler) |
 | Mobil/ | 1 | Klasor silindi — icerik _TODO'da |
-| Enjeksiyon/ | 1 | Mevcut (3 genel rehber) |
+| Enjeksiyon/ | 2 | Mevcut (3 genel rehber) |
 | Kimlik_Dogrulama/ | 1 | Klasor henuz olusturulmadi |
 
 ## Mevcut Dokuman Durumu
@@ -136,6 +142,7 @@ Tum TODO dosyalari **8 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 | Silindi — icerik TODO dosyasinda | 21 |
 | Henuz yok | 26 |
 | Arastirma dosyasinda mevcut | 1 |
+| Rehber dokumani mevcut | 1 |
 
 ---
 

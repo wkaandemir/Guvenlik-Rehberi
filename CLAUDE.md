@@ -12,7 +12,7 @@ Turkce guvenlik rehberi ve zafiyet izleme deposu. Kod icermez — tamami Markdow
 
 | Klasor | Icerik |
 |--------|--------|
-| `OWASP_Top_10/` | A01–A10 genel guvenlik acigi rehberleri |
+| `OWASP_Top_10/` | A01-A10 genel guvenlik acigi rehberleri |
 | `Enjeksiyon/` | SQL Injection, Command Injection vb. rehberler |
 | `Erisim_Kontrolu/` | Broken Access Control, IDOR vb. rehberler |
 | `Oturum_Yonetimi/` | CSRF, Session Management vb. rehberler |
@@ -98,7 +98,7 @@ Durum degistirme: TODO dosyasindaki `| **Durum** | ACIK |` satirini `KAPANDI` ol
 
 ### TODO Dokuman Formati (Zorunlu)
 
-Her TODO dosyasi `_Sablonlar/todo_sablonu.md` sablonundaki **9 bolumluk yapi**ya uygun olmalidir. Referans ornek: `OWASP_Top_10/A06_Insecure_Design.md`.
+Her TODO dosyasi `_Sablonlar/todo_sablonu.md` sablonundaki **8 bolumluk yapi**ya uygun olmalidir.
 
 **Zorunlu bolumler (sirasi degismez):**
 

@@ -17,7 +17,7 @@ Guvenlik-Rehberi/
 ├── Erisim_Kontrolu/         # Broken Access Control, IDOR rehberleri
 ├── Oturum_Yonetimi/         # CSRF, Session Management rehberleri
 ├── Arastirmalar/            # Derinlemesine arastirma ve raporlar
-├── _TODO/                   # CVE-bazli zafiyet takip dosyalari (49 TODO)
+├── _TODO/                   # CVE-bazli zafiyet takip dosyalari (59 TODO)
 ├── _Sablonlar/              # Dokuman sablonlari
 └── .claude/                 # Claude Code komutlari
 ```
@@ -78,9 +78,9 @@ Isletim Sistemi, Donanim, Mobil, Guvenlik Yapilandirmasi, AI IDE Guvenligi ve di
 
 | Kritiklik | Sayi |
 |-----------|------|
-| Kritik | 20 |
-| Yuksek | 24 |
-| Orta | 5 |
+| Kritik | 23 |
+| Yuksek | 29 |
+| Orta | 7 |
 
 ## Katki
 

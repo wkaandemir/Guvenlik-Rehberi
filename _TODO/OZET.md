@@ -6,8 +6,8 @@
 
 | Metrik | Sayi |
 |--------|------|
-| **Toplam TODO** | 49 |
-| **ACIK** | 49 |
+| **Toplam TODO** | 59 |
+| **ACIK** | 59 |
 | **KAPANDI** | 0 |
 
 ## Dokuman Formati
@@ -27,7 +27,7 @@ Tum TODO dosyalari **9 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 
 *   **Referans format:** `OWASP_Top_10/A06_Insecure_Design.md`
 *   **Sablon:** `_Sablonlar/todo_sablonu.md`
-*   **Toplam kontrol maddesi (checkbox):** 703
+*   **Toplam kontrol maddesi (checkbox):** 828
 
 ---
 
@@ -107,15 +107,30 @@ Tum TODO dosyalari **9 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 |---|-------------|-------------|-----------|----------|-------|
 | 49 | [TODO_cve_2025_64459](TODO_cve_2025_64459_django_orm_sql_injection.md) | CVE-2025-64459 | Yuksek | Enjeksiyon/ | ACIK |
 
+### 6. OWASP Top 10 2025 Rehber Analizi (10 TODO)
+
+| # | TODO Dosyasi | Tanimlayici | Kritiklik | Kategori | Durum |
+|---|-------------|-------------|-----------|----------|-------|
+| 50 | [TODO_owasp_a01](TODO_owasp_a01_broken_access_control.md) | OWASP A01:2025 | Kritik | Erisim_Kontrolu/ | ACIK |
+| 51 | [TODO_owasp_a02](TODO_owasp_a02_security_misconfiguration.md) | OWASP A02:2025 | Yuksek | Guvenlik_Yapilandirmasi/ | ACIK |
+| 52 | [TODO_owasp_a03](TODO_owasp_a03_supply_chain_failures.md) | OWASP A03:2025 | Kritik | Tedarik_Zinciri/ | ACIK |
+| 53 | [TODO_owasp_a04](TODO_owasp_a04_cryptographic_failures.md) | OWASP A04:2025 | Yuksek | Guvenlik_Yapilandirmasi/ | ACIK |
+| 54 | [TODO_owasp_a05](TODO_owasp_a05_injection.md) | OWASP A05:2025 | Kritik | Enjeksiyon/ | ACIK |
+| 55 | [TODO_owasp_a06](TODO_owasp_a06_insecure_design.md) | OWASP A06:2025 | Yuksek | OWASP_Top_10/ | ACIK |
+| 56 | [TODO_owasp_a07](TODO_owasp_a07_authentication_failures.md) | OWASP A07:2025 | Yuksek | Kimlik_Dogrulama/ | ACIK |
+| 57 | [TODO_owasp_a08](TODO_owasp_a08_integrity_failures.md) | OWASP A08:2025 | Yuksek | Tedarik_Zinciri/ | ACIK |
+| 58 | [TODO_owasp_a09](TODO_owasp_a09_logging_alerting_failures.md) | OWASP A09:2025 | Orta | Guvenlik_Yapilandirmasi/ | ACIK |
+| 59 | [TODO_owasp_a10](TODO_owasp_a10_exceptional_conditions.md) | OWASP A10:2025 | Orta | OWASP_Top_10/ | ACIK |
+
 ---
 
 ## Kritiklik Dagilimi
 
 | Kritiklik | Sayi |
 |-----------|------|
-| Kritik | 20 |
-| Yuksek | 24 |
-| Orta | 5 |
+| Kritik | 23 |
+| Yuksek | 29 |
+| Orta | 7 |
 | Dusuk | 0 |
 
 ## Kategori Dagilimi
@@ -123,17 +138,17 @@ Tum TODO dosyalari **9 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 | Kategori | Sayi | Durum |
 |----------|------|-------|
 | AI_IDE_Guvenligi/ | 12 | Klasor henuz olusturulmadi |
+| Guvenlik_Yapilandirmasi/ | 10 | Klasor silindi — icerik _TODO'da |
 | Isletim_Sistemi/ | 10 | Klasor silindi — icerik _TODO'da |
-| Guvenlik_Yapilandirmasi/ | 7 | Klasor silindi — icerik _TODO'da |
+| Erisim_Kontrolu/ | 5 | Mevcut (1 genel rehber) |
+| Tedarik_Zinciri/ | 4 | Klasor henuz olusturulmadi |
 | Donanim/ | 4 | Klasor silindi — icerik _TODO'da |
-| Erisim_Kontrolu/ | 4 | Mevcut (1 genel rehber) |
+| Enjeksiyon/ | 3 | Mevcut (3 genel rehber) |
+| OWASP_Top_10/ | 3 | Mevcut (A01-A10 genel rehberler) |
 | Oturum_Yonetimi/ | 3 | Mevcut (1 genel rehber) |
-| Tedarik_Zinciri/ | 2 | Klasor henuz olusturulmadi |
+| Kimlik_Dogrulama/ | 2 | Klasor henuz olusturulmadi |
 | Veri_Ihlalleri/ | 2 | Klasor henuz olusturulmadi |
-| OWASP_Top_10/ | 1 | Mevcut (A01-A10 genel rehberler) |
 | Mobil/ | 1 | Klasor silindi — icerik _TODO'da |
-| Enjeksiyon/ | 2 | Mevcut (3 genel rehber) |
-| Kimlik_Dogrulama/ | 1 | Klasor henuz olusturulmadi |
 
 ## Mevcut Dokuman Durumu
 
@@ -142,7 +157,7 @@ Tum TODO dosyalari **9 bolumluk detayli zafiyet analiz formatinda** hazirlanmist
 | Silindi — icerik TODO dosyasinda | 21 |
 | Henuz yok | 26 |
 | Arastirma dosyasinda mevcut | 1 |
-| Rehber dokumani mevcut | 1 |
+| Rehber dokumani mevcut | 11 |
 
 ---
 
